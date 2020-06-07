@@ -13,12 +13,11 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
-url: "http://www.example.com" # the base hostname & protocol for your site
-# logo: "/assets/img/logo/audio-guide.png"
+url: "https://sacred.audio" # the base hostname & protocol for your site
 logo: "/assets/img/logo/sa.png"
 twitter_username: sacreddata
 github_username:  sacreddata
-menu_heading: "Select another"
+menu_heading: "Select another commandment"
 index_page_text: "Sound is our study; data, our religion. Below, our commandments."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
