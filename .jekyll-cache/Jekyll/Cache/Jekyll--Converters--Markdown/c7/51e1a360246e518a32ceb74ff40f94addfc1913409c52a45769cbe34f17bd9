@@ -1,0 +1,50 @@
+I"<h2 id="stage-2-masters">Stage 2 Masters</h2>
+
+<p>Once our <strong>Stage 1</strong> mastering process has been completed and signed off by the client, our software automatically derives masters specifically designed to meet the specifications of each planned distribution endpoint:</p>
+
+<h3 id="mastered-for-digital">Mastered for Digital</h3>
+
+<p>To ensure compliance with digital streaming endpoints, all of our digital stream masters are output to EBU R128 specifications. This means we target a -60 LUFS noise threshold, do not let true peaks exceed -2dBTP, and maintain deviances that do not exceed ±0.5 LU.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Platform</th>
+      <th>Loudness</th>
+      <th>True Peak</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Amazon</td>
+      <td>-12dB LUFS</td>
+      <td>-2dBTP</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>-16dB LUFS</td>
+      <td>-1dBTP</td>
+    </tr>
+    <tr>
+      <td>Deezer</td>
+      <td>-14dB LUFS</td>
+      <td>-1dBTP</td>
+    </tr>
+    <tr>
+      <td>SoundCloud</td>
+      <td>-8dB LUFS</td>
+      <td>-1dBTP</td>
+    </tr>
+    <tr>
+      <td>Spotify</td>
+      <td>-14dB LUFS</td>
+      <td>-2dBTP</td>
+    </tr>
+    <tr>
+      <td>YouTube</td>
+      <td>-14dB LUFS</td>
+      <td>-1dBTP</td>
+    </tr>
+  </tbody>
+</table>
+:ET
