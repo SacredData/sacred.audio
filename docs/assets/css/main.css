@@ -1,5 +1,7 @@
 /************* Open Sans, loaded via Google Fonts. Replace below with your own @font-face or @import statements	 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face { font-family: "ProggySquareTT"; src: url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot"); src: url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.woff") format("woff"), url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5423e3f6b569eee8bb7179f1319240ea.svg#ProggySquareTT") format("svg"); }
+
 /** Remove focus outline on all elements -- fix the square that would appear around the play icon on Android */
 *:focus { outline: none; }
 
@@ -10,7 +12,7 @@ input, textarea, button, select, label, a { -webkit-tap-highlight-color: rgba(0,
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 20px/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fafafa; background-color: #222222; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
+body { font: 400 20px/1.5 "ProggySquareTT", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #fafafa; background-color: #222222; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -88,7 +90,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 @media screen and (min-height: 600px) { .welcome .slick p { font-size: 20px; } }
 
-.styled-button { border: none; background: #D4AF37; border-radius: 5px; color: #fafafa; padding: 0.5em 1em; font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; cursor: pointer; -webkit-appearance: none; transition: 0.3s; }
+.styled-button { border: none; background: #D4AF37; border-radius: 5px; color: #fafafa; padding: 0.5em 1em; font-family: "ProggySquareTT", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; cursor: pointer; -webkit-appearance: none; transition: 0.3s; }
 
 .styled-button:hover, .styled-button:active, .styled-button:focus { background-color: #ddc061; }
 
